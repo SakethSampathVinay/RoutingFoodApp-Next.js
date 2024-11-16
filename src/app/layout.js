@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Suspense fallback={<Loading />}>{children}</Suspense>
+        <Suspense fallback={<Loading />}>{children}</Suspense>   { /* suspense is a build in react component that allows us to delay the rendering of a component until its dependencies have loaded. */}
       </body>
     </html>
   );

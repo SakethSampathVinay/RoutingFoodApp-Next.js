@@ -1,9 +1,9 @@
 import Link  from "next/link";
 
-export default function RecipeDetailsItem({ recipedetailsitem }) {
+export default function RecipeDetailsItem({ recipedetailsitem }) { {/*getting the prop recipedetailsitem from the [details] page.js file */}
   return (
     <>
-    <Link href = {"/recipe-list"}>Go to Recipes</Link>
+    <Link href = {"/recipe-list"}>Go to Recipes</Link> {/*this will be link to the recipe-list page.js*/}
     <div className="p-6 lg:max-w-6xl max-w-2xl mx-auto">
       <div className="grid items-start grids-cols-1 lg:grid-cols-2 gap-10">
         <div className="w-full lg:stricky top-0 sm:flex gap-2">
